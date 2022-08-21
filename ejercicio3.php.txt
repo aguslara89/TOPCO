@@ -1,0 +1,9 @@
+def listaPar(lis):
+    i=0
+    while i< len(lis):
+        if lis[i]%2==0:
+            lis[i]= 'P'
+        i=i+1
+   return lis        
+miLista= [1,2,3,4]
+print(listaPar(miLista))

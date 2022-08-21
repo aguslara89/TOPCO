@@ -1,0 +1,13 @@
+def cantE(lis):
+    i=0
+    count=0
+    while i< len(lis):
+        if lis[i]=='e':
+            count=count + 1 
+        i= i + 1
+    return count
+
+Texto= "Hola como estas"
+milista= list(Texto)
+prueba= cantE(milista)
+print(prueba)

@@ -1,0 +1,9 @@
+def masLarga(l1,l2):
+    if len(l1) > len(l2):
+        return l1
+    else:
+        return l2
+Nombre1= "pepe"
+Nombre2= "Martin"
+prueba= masLarga(Nombre1, Nombre2)
+print(prueba)

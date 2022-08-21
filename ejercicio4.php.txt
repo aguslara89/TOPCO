@@ -1,0 +1,14 @@
+def intercalar_listas(l1, l2):
+    i=0
+    l=[]
+    while i<len(l1) or i<len(l2):
+        if i<len(l1):
+            l.append(l1[i])
+        if i<len(l2):
+            l.append(l2[i])
+        i=i+1
+    return l
+lista1= "jose"
+lista2= "pepe"
+intercalar= intercalar_listas(lista1, lista2)
+print(intercalar)
